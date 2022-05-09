@@ -1,0 +1,66 @@
+Running system in eclipse. 
+input_events.csv includes one line out of the six that throws a motor errors: "1,2,Up,3,0,1".
+It is expected that the elevator subsystem will schedule the event and the elevator it is scheduled to will stop.
+
+The Elevator Subsystem output the information below, showing the Motor Error functioning properly.
+ 
+2022-03-27 20:49:25.609 | 12-5-Elevator Subsystem (0) is sending a message to the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: []
+panel lights: []
+state: DOORS_OPEN
+derr. flag: false
+merr. flag: false
+
+2022-03-27 20:49:25.625 | 12-5-Elevator Subsystem (0) received a message from the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: [2]
+panel lights: []
+state: DOORS_OPEN
+derr. flag: false
+merr. flag: true
+
+2022-03-27 20:49:28.633 | 12-5-Elevator Subsystem (0) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 2.
+The elevator is 2 floor(s) away.
+The remaining destinations are [2].
+The panel lights that are on are [].
+The current elevator state is: DOORS_OPEN
+The next state of the elevator will be: DOORS_CLOSED
+
+2022-03-27 20:49:28.633 | 12-5-Elevator Subsystem (0) is sending a message to the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: [2]
+panel lights: []
+state: DOORS_CLOSED
+derr. flag: false
+merr. flag: true
+
+
+2022-03-27 20:49:28.635 | 12-5-Elevator Subsystem (0) received a message from the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: [2]
+panel lights: []
+state: DOORS_CLOSED
+derr. flag: false
+merr. flag: true
+
+
+MOTOR ERROR FLAG TRIGGERED
+2022-03-27 20:49:28.636 | 12-5-Elevator Subsystem (0) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 2.
+The elevator is 2 floor(s) away.
+The remaining destinations are [2].
+The panel lights that are on are [].
+The current elevator state is: DOORS_CLOSED
+The next state of the elevator will be: MOTOR_ERROR
+
+2022-03-27 20:49:28.637 | 12-5-Elevator Subsystem (0) is currently having a motor error.
+
+2022-03-27 20:49:28.637 | 12-5-Elevator Subsystem (0) has finished execution.

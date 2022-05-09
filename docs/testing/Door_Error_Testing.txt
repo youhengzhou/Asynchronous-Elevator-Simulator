@@ -1,0 +1,64 @@
+Running system in eclipse. 
+input_events.csv includes two lines out of the six that throw door errors: "05:09.0,0,Up,6,1,0" and "05:09.0,3,Up,7,1,0".
+It is expected that the elevator subsystem will wait an additional 4.00 seconds. This is specified in the Elevator Constants file.
+
+ The Elevator Subsystem output the information below, showing the Door Error functioning properly.
+ 
+ 2022-03-26 21:54:25.475 | 12-5-Elevator Subsystem (0) received a message from the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: [6]
+panel lights: [6]
+state: DOOR_ERROR
+
+2022-03-26 21:54:25.475 | 13-5-Elevator Subsystem (1) received a message from the scheduler
+*Elevator-Scheduler Message*
+current floor: 0
+destination queue: [2, 3]
+panel lights: []
+state: DOOR_ERROR
+
+2022-03-26 21:54:25.477 | 12-5-Elevator Subsystem (0) was closing doors, but is having a door error - waiting extra time.
+
+2022-03-26 21:54:25.476 | 13-5-Elevator Subsystem (1) was closing doors, but is having a door error - waiting extra time.
+
+2022-03-26 21:54:25.478 | 13-5-Elevator Subsystem (1) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 2.
+The elevator is 2 floor(s) away.
+The remaining destinations are [2, 3].
+The panel lights that are on are [].
+The current elevator state is: DOORS_OPEN
+The next state of the elevator will be: DOOR_ERROR
+
+2022-03-26 21:54:25.478 | 12-5-Elevator Subsystem (0) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 6.
+The elevator is 6 floor(s) away.
+The remaining destinations are [6].
+The panel lights that are on are [6].
+The current elevator state is: DOORS_OPEN
+The next state of the elevator will be: DOOR_ERROR
+
+2022-03-26 21:54:29.485 | 13-5-Elevator Subsystem (1) has had its door error resolved.
+
+2022-03-26 21:54:29.485 | 12-5-Elevator Subsystem (0) has had its door error resolved.
+
+2022-03-26 21:54:32.49 | 12-5-Elevator Subsystem (0) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 6.
+The elevator is 6 floor(s) away.
+The remaining destinations are [6].
+The panel lights that are on are [6].
+The current elevator state is: DOOR_ERROR
+The next state of the elevator will be: DOORS_CLOSED
+
+2022-03-26 21:54:32.491 | 13-5-Elevator Subsystem (1) is progressing through states | (DBG)
+The elevator is currently on floor 0.
+The elevator is going to floor 2.
+The elevator is 2 floor(s) away.
+The remaining destinations are [2, 3].
+The panel lights that are on are [].
+The current elevator state is: DOOR_ERROR
+The next state of the elevator will be: DOORS_CLOSED
+

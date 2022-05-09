@@ -1,0 +1,230 @@
+"C:\Users\Tony Zeidan\.jdks\openjdk-15.0.1\bin\java.exe" -javaagent:E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\lib\idea_rt.jar=53459:E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\bin -Dfile.encoding=UTF-8 -classpath U:\courses\course_SYSC3303\project\SYSC3303_elevator_project\bin;E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\lib\junit4.jar main.core.scheduler.Scheduler
+2022-04-11 17:24:44.593 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 1
+floor: 2
+f-button: true
+c-button: 5
+d-error: false
+m-error: false
+
+2022-04-11 17:24:44.597 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 0 for event going from 2 to 5
+
+2022-04-11 17:24:44.598 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 1
+floor: 4
+f-button: true
+c-button: 11
+d-error: true
+m-error: false
+
+2022-04-11 17:24:44.602 | 30-5-Scheduler - Floor communicator thread has determined that elevator 1 will have a door error.
+
+2022-04-11 17:24:44.602 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 1 for event going from 4 to 11
+
+2022-04-11 17:24:44.603 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 1
+floor: 22
+f-button: false
+c-button: 3
+d-error: false
+m-error: false
+
+2022-04-11 17:24:44.605 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 2 for event going from 22 to 3
+
+2022-04-11 17:24:45.606 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 2
+floor: 12
+f-button: false
+c-button: 11
+d-error: false
+m-error: false
+
+2022-04-11 17:24:45.609 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 3 for event going from 12 to 11
+
+2022-04-11 17:24:45.609 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 2
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:24:45.612 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 2
+floor: 7
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:24:45.615 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 0 for event going from 7 to 14
+
+2022-04-11 17:24:45.615 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 2
+floor: 14
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:24:46.62 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 3
+floor: 9
+f-button: true
+c-button: 14
+d-error: false
+m-error: true
+
+2022-04-11 17:24:46.625 | 30-5-Scheduler - Floor communicator thread Elevator 0 will get a Motor Error from event 9 to 14, All events that it currently handling needs to rescheduled to other elevators
+
+
+2022-04-11 17:24:47.628 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 4
+floor: 5
+f-button: true
+c-button: 12
+d-error: true
+m-error: false
+
+2022-04-11 17:24:47.63 | 30-5-Scheduler - Floor communicator thread has determined that elevator 0 will have a door error.
+
+2022-04-11 17:24:47.63 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 0 for event going from 9 to 14
+
+2022-04-11 17:24:47.631 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 0 for event going from 5 to 12
+
+2022-04-11 17:24:47.631 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 4
+floor: 16
+f-button: false
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:24:48.635 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 5
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:24:48.641 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 5
+floor: 16
+f-button: false
+c-button: 13
+d-error: false
+m-error: false
+
+2022-04-11 17:24:48.646 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 5
+floor: 1
+f-button: true
+c-button: 15
+d-error: false
+m-error: false
+
+2022-04-11 17:24:48.65 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 5
+floor: 17
+f-button: false
+c-button: 16
+d-error: false
+m-error: false
+
+2022-04-11 17:24:49.662 | 30-5-Scheduler - Floor communicator thread received event from floor subsystem
+*Event Object*
+time: 6
+floor: 4
+f-button: true
+c-button: 8
+d-error: false
+m-error: false
+
+2022-04-11 17:24:49.665 | 30-5-Scheduler - Floor communicator thread scheduled elevator with ID 0 for event going from 4 to 8
+
+2022-04-11 17:24:54.814 | 31-5-Scheduler - Elevator communication thread detected that elevator (0) is in an error state
+
+2022-04-11 17:24:54.815 | 31-5-Scheduler - Elevator communication thread must reschedule events for elevator (0)
+
+2022-04-11 17:24:54.818 | 31-5-Scheduler - Elevator communication thread has determined that based on floor 2, the event [2, 5] will be placed back in the event queue (reschedule)
+
+2022-04-11 17:24:54.82 | 31-5-Scheduler - Elevator communication thread has determined that based on floor 4, the event [4, 8] will be placed back in the event queue (reschedule)
+
+2022-04-11 17:24:54.821 | 31-5-Scheduler - Elevator communication thread has determined that based on floor 5, the event [5, 12] will be placed back in the event queue (reschedule)
+
+2022-04-11 17:24:54.822 | 31-5-Scheduler - Elevator communication thread has determined that based on floor 7, the event [7, 14] will be placed back in the event queue (reschedule)
+
+2022-04-11 17:24:54.823 | 31-5-Scheduler - Elevator communication thread has determined that based on floor 9, the event [9, 14] will be placed back in the event queue (reschedule)
+
+2022-04-11 17:24:54.825 | 31-5-Scheduler - Elevator communication thread has determined that elevator 1 will have a door error.
+
+2022-04-11 17:24:54.826 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 1 for event going from 2 to 5
+
+2022-04-11 17:24:54.827 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 1 for event going from 4 to 8
+
+2022-04-11 17:24:54.829 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 1 for event going from 5 to 12
+
+2022-04-11 17:24:54.83 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 1 for event going from 7 to 14
+
+2022-04-11 17:24:54.831 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 1 for event going from 9 to 14
+
+2022-04-11 17:25:32.974 | 31-5-Scheduler - Elevator communication thread has had '1' events completed.
+
+2022-04-11 17:25:38.962 | 31-5-Scheduler - Elevator communication thread has had '2' events completed.
+
+2022-04-11 17:25:41.977 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 3 for event going from 13 to 6
+
+2022-04-11 17:25:59.024 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 2 for event going from 14 to 6
+
+2022-04-11 17:25:59.025 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 2 for event going from 16 to 14
+
+2022-04-11 17:25:59.025 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 2 for event going from 13 to 6
+
+2022-04-11 17:25:59.025 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 2 for event going from 16 to 13
+
+2022-04-11 17:25:59.025 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 2 for event going from 17 to 16
+
+2022-04-11 17:26:02.112 | 31-5-Scheduler - Elevator communication thread has had '3' events completed.
+
+2022-04-11 17:26:24.115 | 31-5-Scheduler - Elevator communication thread has had '4' events completed.
+
+2022-04-11 17:26:27.128 | 31-5-Scheduler - Elevator communication thread scheduled elevator with ID 3 for event going from 1 to 15
+
+2022-04-11 17:26:31.242 | 31-5-Scheduler - Elevator communication thread has had '5' events completed.
+
+2022-04-11 17:26:34.142 | 31-5-Scheduler - Elevator communication thread has had '6' events completed.
+
+2022-04-11 17:26:44.311 | 31-5-Scheduler - Elevator communication thread has had '7' events completed.
+
+2022-04-11 17:26:50.214 | 31-5-Scheduler - Elevator communication thread has had '8' events completed.
+
+2022-04-11 17:27:00.376 | 31-5-Scheduler - Elevator communication thread has had '9' events completed.
+
+2022-04-11 17:27:00.376 | 31-5-Scheduler - Elevator communication thread has had '10' events completed.
+
+2022-04-11 17:27:03.279 | 31-5-Scheduler - Elevator communication thread has had '11' events completed.
+
+2022-04-11 17:27:34.416 | 31-5-Scheduler - Elevator communication thread has had '12' events completed.
+
+2022-04-11 17:27:34.416 | 31-5-Scheduler - Elevator communication thread has had '13' events completed.
+
+2022-04-11 17:27:39.389 | 31-5-Scheduler - Elevator communication thread has had '14' events completed.
+
+2022-04-11 17:27:53.474 | 31-5-Scheduler - Elevator communication thread has had '15' events completed.
+
+The elapsed time was: 183812170600

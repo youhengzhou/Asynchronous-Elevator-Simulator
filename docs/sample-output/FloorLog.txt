@@ -1,0 +1,2157 @@
+"C:\Users\Tony Zeidan\.jdks\openjdk-15.0.1\bin\java.exe" -javaagent:E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\lib\idea_rt.jar=53454:E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\bin -Dfile.encoding=UTF-8 -classpath U:\courses\course_SYSC3303\project\SYSC3303_elevator_project\bin;E:\software\jetbrains\apps\IDEA-U\ch-0\211.7628.21\lib\junit4.jar main.core.floorsubsystem.FloorSubsystem
+1
+1
+1
+2
+2
+2
+2
+3
+4
+4
+5
+5
+5
+5
+6
+2022-04-11 17:24:43.575 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:43.575 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 1
+floor: 2
+f-button: true
+c-button: 5
+d-error: false
+m-error: false
+
+here we slept for 1scond
+2022-04-11 17:24:43.577 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:44.589 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 2
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    1        
+Data: [0, 1, 0, 1, 0, 49, 0, 2, 0, 1, 0, 5, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:44.594 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 1
+floor: 4
+f-button: true
+c-button: 11
+d-error: true
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:44.596 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 4
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    1   
+    
+Data: [0, 1, 0, 1, 0, 49, 0, 4, 0, 1, 0, 11, 0, 1, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:44.598 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 1
+floor: 22
+f-button: false
+c-button: 3
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:44.6 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 22
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    1         
+Data: [0, 1, 0, 1, 0, 49, 0, 22, 0, 0, 0, 3, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:44.603 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 2
+floor: 12
+f-button: false
+c-button: 11
+d-error: false
+m-error: false
+
+here we slept for 1scond
+2022-04-11 17:24:45.589 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:45.589 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:45.605 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 12
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    2    
+     
+Data: [0, 1, 0, 1, 0, 50, 0, 12, 0, 0, 0, 11, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:45.606 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 2
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:45.607 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 13
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+        
+Data: [0, 1, 0, 1, 0, 50, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:45.61 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 2
+floor: 7
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:45.611 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 7
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 7, 0, 1, 0, 14, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:45.612 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 2
+floor: 14
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:45.615 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 14
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 14, 0, 0, 0, 6, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:45.616 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 3
+floor: 9
+f-button: true
+c-button: 14
+d-error: false
+m-error: true
+
+here we slept for 1scond
+2022-04-11 17:24:46.619 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 9
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    3 	      
+Data: [0, 1, 0, 1, 0, 51, 0, 9, 0, 1, 0, 14, 0, 0, 0, 1, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:46.62 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 4
+floor: 5
+f-button: true
+c-button: 12
+d-error: true
+m-error: false
+
+here we slept for 1scond
+2022-04-11 17:24:47.595 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:47.595 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:47.628 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 5
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    4       
+Data: [0, 1, 0, 1, 0, 52, 0, 5, 0, 1, 0, 12, 0, 1, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:47.629 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 4
+floor: 16
+f-button: false
+c-button: 14
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:47.63 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 16
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    4         
+Data: [0, 1, 0, 1, 0, 52, 0, 16, 0, 0, 0, 14, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:47.631 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 5
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+here we slept for 1scond
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+        
+Data: [0, 1, 0, 1, 0, 53, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:48.636 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 5
+floor: 16
+f-button: false
+c-button: 13
+d-error: false
+m-error: false
+
+here we slept for 0scond
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+     
+Data: [0, 1, 0, 1, 0, 53, 0, 16, 0, 0, 0, 13, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:48.641 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 5
+floor: 1
+f-button: true
+c-button: 15
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:48.642 | 33-5-Floor Subsystem PASSR switched the UP light ON - floor 1
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    5        
+Data: [0, 1, 0, 1, 0, 53, 0, 1, 0, 1, 0, 15, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:48.646 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 5
+floor: 17
+f-button: false
+c-button: 16
+d-error: false
+m-error: false
+
+here we slept for 0scond
+2022-04-11 17:24:48.647 | 33-5-Floor Subsystem PASSR switched the DOWN light ON - floor 17
+
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    5         
+Data: [0, 1, 0, 1, 0, 53, 0, 17, 0, 0, 0, 16, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:48.65 | Floor Subsystem PASSR is pushing an event to the Scheduler
+*Event Object*
+time: 6
+floor: 4
+f-button: true
+c-button: 8
+d-error: false
+m-error: false
+
+here we slept for 1scond
+2022-04-11 17:24:49.598 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:49.598 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR is sending a packet to host /127.0.0.1 at port 23
+String:    6       
+Data: [0, 1, 0, 1, 0, 54, 0, 4, 0, 1, 0, 8, 0, 0, 0, 0, 0]
+Floor Subsystem PASSR received a packet from host /127.0.0.1 at port 23
+String: ACK                                                                                                 
+Data: [65, 67, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:51.601 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:51.601 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:53.612 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:53.612 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:55.622 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:55.622 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:57.639 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:57.639 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:24:59.643 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:24:59.643 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:01.645 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:01.645 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1        
+Data: [0, 1, 0, 1, 0, 49, 0, 2, 0, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1                                                                                           
+Data: [0, 1, 0, 1, 0, 49, 0, 2, 0, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:01.646 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 2
+f-button: true
+c-button: 5
+d-error: false
+m-error: false
+
+2022-04-11 17:25:01.647 | 31-5-Floor Subsystem switched the UP light OFF - floor 2
+
+2022-04-11 17:25:03.659 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:03.659 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1        
+Data: [0, 1, 0, 1, 0, 49, 0, 2, 0, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1                                                                                           
+Data: [0, 1, 0, 1, 0, 49, 0, 2, 0, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:03.66 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 2
+f-button: true
+c-button: 5
+d-error: false
+m-error: false
+
+2022-04-11 17:25:05.665 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:05.665 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:07.681 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:07.681 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:09.685 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:09.685 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:11.689 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:11.689 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:13.692 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:13.692 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:15.693 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:15.693 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:17.696 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:17.696 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:19.698 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:19.698 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:21.7 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:21.7 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1   
+    
+Data: [0, 1, 0, 1, 0, 49, 0, 4, 0, 1, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1   
+                                                                                       
+Data: [0, 1, 0, 1, 0, 49, 0, 4, 0, 1, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:21.7 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 4
+f-button: true
+c-button: 11
+d-error: true
+m-error: false
+
+2022-04-11 17:25:21.701 | 31-5-Floor Subsystem switched the UP light OFF - floor 4
+
+2022-04-11 17:25:23.717 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:23.717 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    6       
+Data: [0, 1, 0, 1, 0, 54, 0, 4, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    6                                                                                          
+Data: [0, 1, 0, 1, 0, 54, 0, 4, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:23.718 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 6
+floor: 4
+f-button: true
+c-button: 8
+d-error: false
+m-error: false
+
+2022-04-11 17:25:25.718 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:25.718 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1   
+    
+Data: [0, 1, 0, 1, 0, 49, 0, 4, 0, 1, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1   
+                                                                                       
+Data: [0, 1, 0, 1, 0, 49, 0, 4, 0, 1, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:25.718 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 4
+f-button: true
+c-button: 11
+d-error: true
+m-error: false
+
+2022-04-11 17:25:27.719 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:27.719 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    6       
+Data: [0, 1, 0, 1, 0, 54, 0, 4, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    6                                                                                          
+Data: [0, 1, 0, 1, 0, 54, 0, 4, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:27.719 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 6
+floor: 4
+f-button: true
+c-button: 8
+d-error: false
+m-error: false
+
+2022-04-11 17:25:29.724 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:29.724 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2    
+     
+Data: [0, 1, 0, 1, 0, 50, 0, 12, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2    
+                                                                                        
+Data: [0, 1, 0, 1, 0, 50, 0, 12, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:29.724 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 12
+f-button: false
+c-button: 11
+d-error: false
+m-error: false
+
+2022-04-11 17:25:29.724 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 12
+
+2022-04-11 17:25:31.728 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:31.728 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2    
+     
+Data: [0, 1, 0, 1, 0, 50, 0, 12, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2    
+                                                                                        
+Data: [0, 1, 0, 1, 0, 50, 0, 12, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:31.728 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 12
+f-button: false
+c-button: 11
+d-error: false
+m-error: false
+
+2022-04-11 17:25:33.742 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:33.742 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    4       
+Data: [0, 1, 0, 1, 0, 52, 0, 5, 0, 1, 0, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    4                                                                                          
+Data: [0, 1, 0, 1, 0, 52, 0, 5, 0, 1, 0, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:33.742 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 4
+floor: 5
+f-button: true
+c-button: 12
+d-error: true
+m-error: false
+
+2022-04-11 17:25:33.744 | 31-5-Floor Subsystem switched the UP light OFF - floor 5
+
+2022-04-11 17:25:35.759 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:35.759 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:37.762 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:37.762 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    4       
+Data: [0, 1, 0, 1, 0, 52, 0, 5, 0, 1, 0, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    4                                                                                          
+Data: [0, 1, 0, 1, 0, 52, 0, 5, 0, 1, 0, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:37.762 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 4
+floor: 5
+f-button: true
+c-button: 12
+d-error: true
+m-error: false
+
+2022-04-11 17:25:39.764 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:39.764 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:41.766 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:41.766 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:43.78 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:43.78 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:45.782 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:45.782 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:47.788 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:47.788 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:49.793 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:49.793 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 7, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2                                                                                            
+Data: [0, 1, 0, 1, 0, 50, 0, 7, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:49.793 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 7
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:25:49.794 | 31-5-Floor Subsystem switched the UP light OFF - floor 7
+
+2022-04-11 17:25:51.798 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:51.798 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:53.814 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:53.814 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 7, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2                                                                                            
+Data: [0, 1, 0, 1, 0, 50, 0, 7, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:53.814 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 7
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:25:55.826 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:55.826 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+        
+Data: [0, 1, 0, 1, 0, 50, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                           
+Data: [0, 1, 0, 1, 0, 50, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:55.826 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:25:55.827 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 13
+
+2022-04-11 17:25:57.839 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:57.839 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1         
+Data: [0, 1, 0, 1, 0, 49, 0, 22, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1                                                                                            
+Data: [0, 1, 0, 1, 0, 49, 0, 22, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:57.839 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 22
+f-button: false
+c-button: 3
+d-error: false
+m-error: false
+
+2022-04-11 17:25:57.84 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 22
+
+2022-04-11 17:25:59.853 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:25:59.853 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+        
+Data: [0, 1, 0, 1, 0, 50, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                           
+Data: [0, 1, 0, 1, 0, 50, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:25:59.853 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:26:01.858 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:01.858 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    1         
+Data: [0, 1, 0, 1, 0, 49, 0, 22, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    1                                                                                            
+Data: [0, 1, 0, 1, 0, 49, 0, 22, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:01.858 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 1
+floor: 22
+f-button: false
+c-button: 3
+d-error: false
+m-error: false
+
+2022-04-11 17:26:03.864 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:03.864 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:05.867 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:05.867 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:07.874 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:07.874 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:09.88 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:09.88 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:11.886 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:11.886 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:13.889 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:13.889 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:15.894 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:15.894 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    3 	       
+Data: [0, 1, 0, 1, 0, 51, 0, 9, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    3 	                                                                                          
+Data: [0, 1, 0, 1, 0, 51, 0, 9, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:15.894 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 3
+floor: 9
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:26:15.894 | 31-5-Floor Subsystem switched the UP light OFF - floor 9
+
+2022-04-11 17:26:17.898 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:17.898 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:19.903 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:19.903 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    3 	       
+Data: [0, 1, 0, 1, 0, 51, 0, 9, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    3 	                                                                                          
+Data: [0, 1, 0, 1, 0, 51, 0, 9, 0, 1, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:19.903 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 3
+floor: 9
+f-button: true
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:26:21.905 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:21.905 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    5         
+Data: [0, 1, 0, 1, 0, 53, 0, 17, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    5                                                                                            
+Data: [0, 1, 0, 1, 0, 53, 0, 17, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:21.905 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 17
+f-button: false
+c-button: 16
+d-error: false
+m-error: false
+
+2022-04-11 17:26:21.906 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 17
+
+2022-04-11 17:26:23.908 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:23.908 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:25.912 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:25.912 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    5         
+Data: [0, 1, 0, 1, 0, 53, 0, 17, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    5                                                                                            
+Data: [0, 1, 0, 1, 0, 53, 0, 17, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:25.912 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 17
+f-button: false
+c-button: 16
+d-error: false
+m-error: false
+
+2022-04-11 17:26:27.928 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:27.928 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:29.931 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:29.931 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:31.933 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:31.933 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:33.934 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:33.934 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:35.94 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:35.94 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    4         
+Data: [0, 1, 0, 1, 0, 52, 0, 16, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    4                                                                                            
+Data: [0, 1, 0, 1, 0, 52, 0, 16, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:35.94 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 4
+floor: 16
+f-button: false
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:26:35.941 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 16
+
+2022-04-11 17:26:37.944 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:37.944 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+     
+Data: [0, 1, 0, 1, 0, 53, 0, 16, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                        
+Data: [0, 1, 0, 1, 0, 53, 0, 16, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:37.944 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 16
+f-button: false
+c-button: 13
+d-error: false
+m-error: false
+
+2022-04-11 17:26:39.958 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:39.958 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    4         
+Data: [0, 1, 0, 1, 0, 52, 0, 16, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    4                                                                                            
+Data: [0, 1, 0, 1, 0, 52, 0, 16, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:39.958 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 4
+floor: 16
+f-button: false
+c-button: 14
+d-error: false
+m-error: false
+
+2022-04-11 17:26:41.961 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:41.961 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+     
+Data: [0, 1, 0, 1, 0, 53, 0, 16, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                        
+Data: [0, 1, 0, 1, 0, 53, 0, 16, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:41.961 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 16
+f-button: false
+c-button: 13
+d-error: false
+m-error: false
+
+2022-04-11 17:26:43.963 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:43.963 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:45.967 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:45.967 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:47.97 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:47.97 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    5        
+Data: [0, 1, 0, 1, 0, 53, 0, 1, 0, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    5                                                                                           
+Data: [0, 1, 0, 1, 0, 53, 0, 1, 0, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:47.97 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 1
+f-button: true
+c-button: 15
+d-error: false
+m-error: false
+
+2022-04-11 17:26:47.971 | 31-5-Floor Subsystem switched the UP light OFF - floor 1
+
+2022-04-11 17:26:49.977 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:49.977 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:51.984 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:51.984 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    5        
+Data: [0, 1, 0, 1, 0, 53, 0, 1, 0, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    5                                                                                           
+Data: [0, 1, 0, 1, 0, 53, 0, 1, 0, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:51.984 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 1
+f-button: true
+c-button: 15
+d-error: false
+m-error: false
+
+2022-04-11 17:26:53.985 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:53.985 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 14, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2                                                                                            
+Data: [0, 1, 0, 1, 0, 50, 0, 14, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:53.985 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 14
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:26:53.986 | 31-5-Floor Subsystem switched the DOWN light OFF - floor 14
+
+2022-04-11 17:26:56.001 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:56.001 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String:    2         
+Data: [0, 1, 0, 1, 0, 50, 0, 14, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String:    2                                                                                            
+Data: [0, 1, 0, 1, 0, 50, 0, 14, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:26:56.001 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 2
+floor: 14
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:26:58.016 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:26:58.016 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:00.022 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:00.022 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:02.029 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:02.029 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:04.031 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:04.031 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+        
+Data: [0, 1, 0, 1, 0, 53, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                           
+Data: [0, 1, 0, 1, 0, 53, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:04.031 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:27:06.031 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:06.031 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:08.037 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:08.037 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+        
+Data: [0, 1, 0, 1, 0, 53, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+                                                                                           
+Data: [0, 1, 0, 1, 0, 53, 0, 13, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:08.037 | 31-5-Floor Subsystem received a reply response from Scheduler
+*Event Object*
+time: 5
+floor: 13
+f-button: false
+c-button: 6
+d-error: false
+m-error: false
+
+2022-04-11 17:27:10.038 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:10.038 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:12.042 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:12.042 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:14.045 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:14.045 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:16.052 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:16.052 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:18.058 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:18.058 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:20.062 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:20.062 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:22.065 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:22.065 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:24.079 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:24.079 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:26.084 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:26.084 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:28.089 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:28.089 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:30.105 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:30.105 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:32.109 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:32.109 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:34.115 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:34.115 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:36.119 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:36.119 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:38.124 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:38.124 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:40.129 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:40.129 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:42.135 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:42.135 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:44.14 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:44.14 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:46.145 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:46.145 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:48.147 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:48.147 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:50.161 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:50.161 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:52.162 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:52.162 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:54.166 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:54.166 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:56.168 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:56.168 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:27:58.17 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:27:58.17 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:00.171 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:00.171 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:02.172 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:02.172 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:04.176 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:04.176 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:06.192 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:06.192 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:08.205 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:08.205 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:10.217 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:10.217 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:12.222 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:12.222 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:14.23 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:14.23 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:16.236 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:16.236 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:18.239 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:18.239 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:20.245 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:20.245 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:22.252 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:22.252 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:24.261 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:24.261 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:26.266 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:26.266 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:28.269 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:28.269 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:30.275 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:30.275 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:32.277 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:32.277 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:34.279 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:34.279 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:36.282 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:36.282 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:38.296 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:38.296 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:40.311 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:40.311 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:42.324 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:42.324 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2022-04-11 17:28:44.328 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: request
+Data: [114, 101, 113, 117, 101, 115, 116]
+
+2022-04-11 17:28:44.328 | 31-5-Floor Subsystem 
+is sending host /127.0.0.1 at port 24
+String: NULL
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Floor Subsystem received a packet from host /127.0.0.1 at port 24
+String: NULL                                                                                                
+Data: [78, 85, 76, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
